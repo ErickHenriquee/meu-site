@@ -29,7 +29,7 @@ header > h1 {
     
     flex: 0 0 200px;  /*não vai crescer, não vai encolher, vai ficar fixo*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336); /*sombra*/
-
+    text-align: center;
     
     align-items: center; /*deixa os itens centralizado dentro da borda*/
 }
@@ -47,11 +47,10 @@ header > nav > a{
     color: white;
     padding: 10px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 50px;
     text-decoration: none;
     text-align: center;
 }
-
 
 main {
     background-color: #F2F2F2;
@@ -59,4 +58,17 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+}
+section#redes-sociais img{
+    width: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    box-shadow: 2px 2px 5px black;
+    
 }
