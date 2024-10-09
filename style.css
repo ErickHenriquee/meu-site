@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'destaque';
+    src: url('font/ToonyLine_PERSONAL_USE_ONLY.otf') format('opentype');  /* opentype (otf) ; truetype (ttf)*/
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,7 +21,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     height: 100vh;
     width: 100vw;
 }
@@ -26,7 +33,9 @@ header {
 }
 
 header > h1 {
-    
+    font-family: 'destaque', Times, serif;
+    font-size: 3em;
+    color: lightgray;
     flex: 0 0 200px;  /*não vai crescer, não vai encolher, vai ficar fixo*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336); /*sombra*/
     text-align: center;
@@ -44,6 +53,8 @@ header > nav {
 
 header > nav > a{
     background-color: black;
+    font-family: 'destaque';
+    font-size: 1.3em;
     color: white;
     padding: 10px;
     margin: 5px;
