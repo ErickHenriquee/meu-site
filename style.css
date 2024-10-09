@@ -34,7 +34,7 @@ header {
 
 header > h1 {
     font-family: 'destaque', Times, serif;
-    font-size: 2em;
+    font-size: 2.3em;
     color: lightgray;
     flex: 0 0 200px;  /*não vai crescer, não vai encolher, vai ficar fixo*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336); /*sombra*/
